@@ -9,9 +9,7 @@ import { Router } from '@angular/router';
 })
 export class MainComponent {
   searchTitle: string = ''; // Khai báo thuộc tính searchTitle
-
   constructor(private router: Router) {}
-
   ngOnInit(): void {}
 
   onButtonClick() {
