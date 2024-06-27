@@ -1,0 +1,53 @@
+/* Styles for the search bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px;
+    gap: 10px; /* Add space between elements */
+  }
+  
+  .search-bar mat-form-field {
+    flex-grow:0.2; /* Make the search input take available space */
+  }
+  
+  .search-bar button {
+    height: 56px; /* Match the height of the input field */
+  }
+  
+  /* Styles for the tutorial card */
+  .tutorial-card {
+    padding: 20px;
+    width: 100%; /* Make card take full width of the container */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove box shadow */
+  }
+  
+  .card-title {
+    color: #0619c7;
+    font-weight: bold;
+    text-align: left;
+    margin-left:50.5ch;
+    margin-bottom: 18px; /* Add space below the title */
+  }
+  
+  /* Container for the buttons in the same row */
+  .button-row {
+    display: flex;
+    //justify-content: space-between; /* Distribute buttons evenly with space between */
+    text-align: left;
+    margin-left:70ch; /* Center the buttons vertically */
+    margin-bottom: 10px;
+    gap: 10px; /* Add space between buttons */
+  }
+  
+  .remove-all-button {
+    background: rgb(124, 6, 26);
+    color: rgb(235, 229, 229);
+  }
+  
+  .info-text {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
